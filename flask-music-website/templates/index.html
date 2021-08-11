@@ -34,10 +34,10 @@
         {% for song in songs %}
         <div class='container-fluid'>
         <h4>{{ song.title }}</h4>
-        <img class='song-photo' src= {{ url_for('static', filename= song.image) }}></img>
+        <img class='song-photo' src= "{{ song.image }}"></img>
         <input type='image' class='play-pause-button' src="/images/play.png"
         onclick="buttonClicked('{{ song.title }}', 'play-pause-button', {{ song.id }})"></input>
-        <audio id='{{ song.title }}' playing= 'false' src= "{{ url_for('static', filename= song.audio) }}"></audio>
+        <audio id='{{ song.title }}' playing= 'false' src= "{{ song.audio }}"></audio>
         </div>  
         {% endfor %}
 
