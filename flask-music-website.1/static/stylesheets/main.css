@@ -1,0 +1,14 @@
+.play-pause-button{
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  position: relative;
+}
+
+.song-photo{
+  height: 400px;
+  width: 400px;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 75px;
+}
