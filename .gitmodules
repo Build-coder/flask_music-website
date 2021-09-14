@@ -1,0 +1,3 @@
+[submodule "mindHomeInc/mindHomeInc/pracReact/my-app"]
+	path = mindHomeInc/mindHomeInc/pracReact/my-app
+	url = https://github.com/Build-coder/git-repo.git
